@@ -6,7 +6,7 @@ A Simple Login System Which Will work on Face Recognition System. This Project i
 ### **Technologies In Use**
 * Python
 * OpenCV
- Tkinter
+* Tkinter
 
 **Number of member/s required:** 4
 
