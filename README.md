@@ -4,9 +4,9 @@
 A Simple Login System Which Will work on Face Recognition System. This Project is done to understand Face Recognition Algorithms Easily and clearly.
 
 ### **Technologies In Use**
-Python
-OpenCV
-Tkinter
+* Python
+* OpenCV
+* Tkinter
 
 **Number of member/s required:** 4
 
