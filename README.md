@@ -16,7 +16,7 @@ A Simple Login System Which Will work on Face Recognition System. This Project i
 
 ### **Contributors**
 * [Sourav Ranjan Maharana](https://github.com/sauravsomxz)
-* [Amal Sunil Pallai](https://github.com/Amal4m41)
+* [Amal Sunil Pillai](https://github.com/Amal4m41)
 * [Bhuvanesh Hingal](https://github.com/BhuvaneshHingal)
 * [Vivek Singh](https://github.com/vivmost)
 * [Pulkit Agarwal](https://github.com/pulkit-1812)
