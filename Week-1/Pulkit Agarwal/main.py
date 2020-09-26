@@ -63,7 +63,7 @@ usernameVar = tk.StringVar()
 passwordVar = tk.StringVar()
 
 tk.Entry(f1, textvariable = usernameVar).grid(row = 1, column = 3)
-tk.Entry(f1, textvariable = passwordVar).grid(row = 2, column = 3)
+tk.Entry(f1, textvariable = passwordVar, show = "*").grid(row = 2, column = 3)
 
 tk.Button(f1, text = "Login", command = login).grid(row = 3, column = 3, pady = 10)
 
@@ -91,7 +91,7 @@ password = tk.StringVar()
 tk.Entry(f2, textvariable = fname).grid(row = 1, column = 3)
 tk.Entry(f2, textvariable = lname).grid(row = 2, column = 3)
 tk.Entry(f2, textvariable = username).grid(row = 3, column = 3)
-tk.Entry(f2, textvariable = password).grid(row = 4, column = 3)
+tk.Entry(f2, textvariable = password, show = "*").grid(row = 4, column = 3)
 
 # Submit button to register the user in database.
 tk.Button(f2, text = "Register", command = register).grid(row = 5, column = 3, pady = 10)
