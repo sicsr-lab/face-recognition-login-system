@@ -6,8 +6,8 @@ import dbfile
 
 root = tk.Tk()              # instantiating Tk class.
 root.title("FRLS")          # Specifying title for the window.
-root.geometry("360x244")    # Specifying size of the window at opening.
-root.minsize(280,240)       # Specifying minimum size of the window.
+root.geometry("390x244")    # Specifying size of the window at opening.
+root.minsize(390,240)       # Specifying minimum size of the window.
 
 # Creating frames.
 f1 = tk.Frame(root)         # Login frame.
@@ -30,6 +30,8 @@ def register():
     pwd = password.get()
     if frstname == '' or lastname == '' or usrname == '' or pwd == '':          # Checking if any field was left empty.
         tsmg.showinfo("Oops!","Sorry you need to fill all the fields.")
+    elif len(pwd) < 8:
+        tsmg.showinfo("Oops!", "Password must be of 8 characters.")
     else:
         details = [frstname,lastname,usrname,pwd]
         dbfile.registerUser(*details)                                           # Passing the credentials to the database file.
@@ -56,12 +58,14 @@ def logout():
 
 
 # Frame 1 starts here
-tk.Label(f1, text = "Username").grid(row = 1, column = 0)
-tk.Label(f1, text = "Password").grid(row = 2, column = 0)
+tk.Label(f1, text = "Username").grid(row = 1, column = 0)           # Creating username label.
+tk.Label(f1, text = "Password").grid(row = 2, column = 0)           # Creating password label.
 
+# Defining variables to store username and password entered by user.
 usernameVar = tk.StringVar()
 passwordVar = tk.StringVar()
 
+# Creating entry widgets to accept user inputs.
 tk.Entry(f1, textvariable = usernameVar).grid(row = 1, column = 3)
 tk.Entry(f1, textvariable = passwordVar, show = "*").grid(row = 2, column = 3)
 
