@@ -43,7 +43,7 @@ def login():
     passwrd = passwordVar.get()
 
     if username == '' or password == '':
-        tsmg.showinfo("Oops!,","Sorry you need to fill all the fields.")
+        tsmg.showinfo("Oops!","Sorry you need to fill all the fields.")
     else:
         details = [username, passwrd]
 
