@@ -1,7 +1,7 @@
 # **Face Recognition Login System**
 
 ### **Description**
-A Simple Login System Which Will work on Face Recognition System. This Project is done to understand Face Recognition Algorithms Easily and clearly.
+A Simple Login System Which Will work on Face Recognition System. This Project is done to understand Face Recognition Algorithms Easily and Clearly.
 
 ### **Technologies In Use**
 * Python
