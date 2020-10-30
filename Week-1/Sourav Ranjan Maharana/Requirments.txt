@@ -1,0 +1,3 @@
+Python 3.x+
+Tkinter
+MongoDB - PyMongo: You need to connect to mongodb server on localhost manually. Just start the service and it'll work. 
