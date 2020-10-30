@@ -5,5 +5,3 @@
 - Python.
 - Tkinter.
 - MongoDB.
-- Sqlite3.
-- Sql.
