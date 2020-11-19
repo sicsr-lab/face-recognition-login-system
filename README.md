@@ -18,6 +18,6 @@ A Simple Login System Which Will work on Face Recognition System. This Project i
 * [Sourav Ranjan Maharana](https://github.com/sauravsomxz)
 * [Amal Sunil Pillai](https://github.com/Amal4m41)
 * [Bhuvanesh Hingal](https://github.com/BhuvaneshHingal)
-* [Pulkit Agarwal](https://github.com/pulkit-1812)
+* [Pulkit Agarwal](https://github.com/pulkit-2022)
 <!-- * [<name of contributor 2>](github profile link of contributor 2) -->
 <!-- To add more contributors use the same format! -->
